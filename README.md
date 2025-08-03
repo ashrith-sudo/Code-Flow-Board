@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# 🚀 DevFlow – Real-Time Code Collaboration Platform
 
-## Project info
+> A minimalist, developer-focused collaborative coding environment — **Google Docs for code**.
 
-**URL**: https://lovable.dev/projects/42c970e5-358e-4c9d-94b2-55242eeb69e3
+DevFlow is a sleek, real-time code editor that enables developers to **write, edit, and experiment together** in a shared workspace. Built for pair programming, coding interviews, and rapid prototyping, DevFlow delivers a smooth, distraction-free experience with live cursors, syntax highlighting, and instant synchronization.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- 🔁 **Real-Time Collaboration**
+  - Live cursor tracking with color-coded indicators
+  - Instant code sync across all connected clients
+  - Animated presence indicators and typing awareness
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/42c970e5-358e-4c9d-94b2-55242eeb69e3) and start prompting.
+- 🎨 **Developer-First UI**
+  - Dark theme optimized for long coding sessions
+  - Syntax highlighting for JavaScript (keywords, strings, numbers, comments)
+  - Monospace fonts: JetBrains Mono & Fira Code
+  - Subtle glow effects for focus and clarity
 
-Changes made via Lovable will be committed automatically to this repo.
+- 👥 **Session Management**
+  - Create and join collaborative coding rooms
+  - Share sessions via unique URLs
+  - View recent sessions and rejoin with one click
 
-**Use your preferred IDE**
+- 📱 **Responsive & Minimalist**
+  - Clean, centered editor with intuitive sidebar
+  - Works seamlessly on desktop and mobile
+  - No clutter — just code
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+### Frontend
+- **React 18** + **TypeScript** – Type-safe component architecture
+- **Tailwind CSS** – Utility-first styling with custom design tokens
+- **Radix UI** – Accessible, unstyled UI primitives
+- **Monaco Editor** (or **CodeMirror**) – For rich code editing experience
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Backend
+- **Node.js** + **Express** – Lightweight server
+- **Socket.IO** – Real-time bidirectional communication
+- **MongoDB** / **Redis** *(optional)* – Session persistence
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Dev Tools
+- Vite – Blazing-fast development server
+- ESLint + Prettier – Code consistency
+- Git + GitHub Actions – CI/CD *(optional)*
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Clone & Run Locally
+
+# Clone the repo
+```bash
+git clone https://github.com/your-username/devflow.git
+cd devflow
+```
+# Install dependencies
+```bash
+npm install
+cd client && npm install
+```
+# Start the server and client
+```bash
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/42c970e5-358e-4c9d-94b2-55242eeb69e3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
