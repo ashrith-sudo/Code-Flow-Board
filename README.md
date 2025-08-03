@@ -2,20 +2,6 @@
 
 *A minimalist, developer-first collaborative code editor for real-time pair programming, featuring live cursors, syntax highlighting, and instant synchronization — like Google Docs for code.*
 
----
-
-## Table of Contents
-
-- [Features](#features)
-
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
