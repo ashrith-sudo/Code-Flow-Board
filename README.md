@@ -39,16 +39,6 @@ DevFlow is a sleek, real-time code editor that enables developers to **write, ed
 - **Radix UI** – Accessible, unstyled UI primitives
 - **Monaco Editor** (or **CodeMirror**) – For rich code editing experience
 
-### Backend
-- **Node.js** + **Express** – Lightweight server
-- **Socket.IO** – Real-time bidirectional communication
-- **MongoDB** / **Redis** *(optional)* – Session persistence
-
-### Dev Tools
-- Vite – Blazing-fast development server
-- ESLint + Prettier – Code consistency
-- Git + GitHub Actions – CI/CD *(optional)*
-
 
 
 ---
